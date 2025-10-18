@@ -8,6 +8,9 @@ public class SampleTest {
 	public void launch() {
 		Reporter.log("SampleTest executed",true);
 	}
-
+	public void test(){
+		WebDriver driver = new ChromeDriver();
+	}
 }
+
 
